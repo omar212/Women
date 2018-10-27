@@ -2,7 +2,6 @@ import "./App.css"
 import firebase from "firebase"
 import React, {Component} from "react
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
-
 import Header from './Components/Header';
 import Signin from './Components/LoginPage/SignIn';
 
