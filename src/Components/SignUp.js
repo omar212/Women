@@ -3,7 +3,7 @@ import Textfield from "@material-ui/core/TextField";
 import Card from "@material-ui/core/Card";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
-import "./SignUp.css";
+import "./Andy.css";
 
 
 class SignUp extends Component {
