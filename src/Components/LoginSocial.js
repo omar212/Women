@@ -1,9 +1,7 @@
-import "./App.css"
-import firebase from "firebase"
-import React, {Component} from "react
+import firebase from "firebase";
+import React, {Component} from "react";
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
-import Header from './Components/Header';
-import Signin from './Components/LoginPage/SignIn';
+import SignIn from './SignIn';
 
 firebase.initializeApp({
   apiKey : "AIzaSyDVL3Lvrvc0E4i6CiuY3Ay9wkjvZona4y0",
@@ -11,7 +9,8 @@ firebase.initializeApp({
 })
 
 class App extends Component {
-  state = {isSignedIn : false} uiConfig = {
+  state = {isSignedIn : false}; 
+  uiConfig = {
     signInFlow : "popup",
     signInOptions:
         [
@@ -40,7 +39,7 @@ class App extends Component {
             <div>Signed In!</div>
             <button onClick={() => firebase.auth().signOut()}>Sign out!</button>
             <h1>Welcome {firebase.auth().currentUser.displayName}</h1>
-              <Signin />
+              <SignIn />
             {/* <img
               alt="profile picture"
               src={firebase.auth().currentUser.photoURL}
@@ -55,7 +54,7 @@ class App extends Component {
           />
         )
   }
-  < /div>
+        </div>
     )
   }
 }
