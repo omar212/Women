@@ -1,20 +1,47 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import Card from "@material-ui/core/Card";
 import Typography from "@material-ui/core/Typography";
 import "./Andy.css";
 
 
-class Questions extends Component {
+class Questions extends PureComponent {
     constructor(props) {
         super(props);
         this.state = {
+            key: this.props.index,
             question: this.props.question,
+            color: "",
+        }
+        this.colorize = this.colorize.bind(this);
+        this.fontize = this.fontize.bind(this);
+    }
+    
+
+
+    colorize() {
+        if(this.state.key % 2 === 0) {
+            return("#3999F8")
+        } else {
+            return ("#F2F2F2")
         }
     }
+
+    fontize() {
+        if(this.state.key % 2 === 0) {
+            return("white")
+        } else {
+            return ("black")
+        }
+    }
+
     render() {
+        // let quest;
+        // (this.state.key % 2 === 0) ? 
+        //         quest = (<div className = "note" style = {{background: "red"}}>{this.state.question}</div>) : 
+        //         quest = (<div className = "note">{this.state.question}</div>)
         return (
-            <div className = "note">
-                {this.props.question}
+            <div>
+                <div className = "note" style = {{backgroundColor: this.colorize(), color: this.fontize()}}>{this.state.question}</div>
             </div>
         )
     }

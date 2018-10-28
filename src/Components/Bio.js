@@ -2,6 +2,9 @@ import React, {Component} from "react";
 import Template from "./Template";
 import TextField from "@material-ui/core/TextField";
 import MenuItem from "@material-ui/core/MenuItem";
+import {
+    Link
+} from "react-router-dom";
 import Data from "./data.json";
 import Button from "@material-ui/core/Button";
 
@@ -81,9 +84,7 @@ class Bio extends Component {
                             
                         
                         return (
-                            
                             <Template
-                               
                                 name={data.Name}
                                 born={data.Year}
                                 career={data.Keyword}
@@ -109,9 +110,13 @@ class Bio extends Component {
                         border: "0px"
                     }}
                     gutterBottom>
-                    next</Button>*/}
-                })}
- 
+                    next</Button>
+                     */}
+                <Button>
+                    <Link to = "/bios/ask">
+                        Ask Me
+                    </Link>
+                </Button>
 
                          
                 

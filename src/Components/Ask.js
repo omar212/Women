@@ -12,22 +12,11 @@ class Ask extends Component {
         this.state = {
             noteText: '',
             notes: [],
-            response: [{
-                    send: false,
-                    first: "Hello"
-                },
-                {
-                    send: false,
-                    second: "goodbye"
-                },
-                {
-                    send: false,
-                    thrid: "okay"
-                }
-            ]
-
+            key: 0,
         }
     }
+
+    
 
     updateNoteText(noteText) {
         this.setState({
@@ -54,7 +43,8 @@ class Ask extends Component {
             let notesArr = this.state.notes;
             notesArr.push(this.state.noteText);
             this.setState({
-                noteText: ''
+                noteText: '',
+                key: this.state.key++,
             });
         }
     }
@@ -65,10 +55,16 @@ class Ask extends Component {
     // }
 
     render() {
+        
+        // let notes = this.state.notes.map((val, key) => {
+        //     return (
+        //         <div>
+        //         <Questions key = {key} question = {val} color = "#F2F2F2"/>
+        //         {console.log(key)}
+        //         </div>
+        //     )
 
-        let notes = this.state.notes.map((val, key) => {
-            return <Questions key = {key} question = {val}/>
-        });
+        // });
 
 
 
@@ -111,7 +107,13 @@ class Ask extends Component {
                    
                 }}
             >
-                {notes}
+                {this.state.notes.map((val, key) => {
+                    return (
+                    <div>
+                        <Questions index = {key} question = {val} color = "#F2F2F2"/>
+                        {console.log("key was " + key)}
+                    </div>
+                )})}
                 <TextField
                     type = "text"
                     ref = {((input) => {this.textInput = input})}

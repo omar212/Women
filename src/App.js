@@ -31,7 +31,6 @@ class App extends Component {
           <Route path = "/signup" exact component = { SignUp } />
           <Route path = "/bios" exact component = { Bio } />
           <Route path = "/bios/ask" exact component = { Ask } />
-          <Route path = "/bios/ask/question" exact component = { Question } />
         </div>
               </BrowserRouter>
           </MuiThemeProvider>
