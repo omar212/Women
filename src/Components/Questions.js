@@ -14,6 +14,7 @@ class Questions extends PureComponent {
         }
         this.colorize = this.colorize.bind(this);
         this.fontize = this.fontize.bind(this);
+        this.floatize = this.floatize.bind(this);
     }
     
 
@@ -34,6 +35,14 @@ class Questions extends PureComponent {
         }
     }
 
+    floatize(){
+        if(this.state.key % 2 === 0) {
+            return("left")
+        } else {
+            return ("right")
+        }
+    }
+
     render() {
         // let quest;
         // (this.state.key % 2 === 0) ? 
@@ -41,7 +50,7 @@ class Questions extends PureComponent {
         //         quest = (<div className = "note">{this.state.question}</div>)
         return (
             <div>
-                <div className = "note" style = {{backgroundColor: this.colorize(), color: this.fontize()}}>{this.state.question}</div>
+                <div className = "note" style = {{backgroundColor: this.colorize(), color: this.fontize(), textAlign: this.floatize()}}>{this.state.question}</div>
             </div>
         )
     }
