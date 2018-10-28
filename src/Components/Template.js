@@ -4,12 +4,12 @@ import Typography from "@material-ui/core/Typography";
 import "./Andy.css";
 import "./template.css";
 
-
 class Template extends Component {
     render() {
         return (
             <div
-                className = "info_container">
+
+                className="info_container">
                 <Card
                     className = "info"
                     raised = "true"
@@ -17,14 +17,14 @@ class Template extends Component {
                     data-aos-easing = "linear"
                     data-aos-duration = "500"
                 >   
-                    <img src = {require("./pete-bellis-199853-unsplash.jpg")} alt = ""></img>
-
                     <Typography
-                        variant = "display1"
-                        style = {{color: "black"}}
+                        variant="display1"
+                        style={{ color: "black" }}
                     >
                         Women's Name
                     </Typography>
+
+                    <img src = {require("./pete-bellis-199853-unsplash.jpg")} alt = ""></img>
 
                     <Typography
                         variant = "subtitle1"

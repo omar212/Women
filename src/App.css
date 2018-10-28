@@ -3,7 +3,9 @@
     background-color: #ffc000;
     width: 100%;
     height: 100vh;
-    border-radius:15px;
+    border-radius:35px;
+    box-sizing: border-box;
+    border: 20px solid white; 
 }
 
 .App-logo {

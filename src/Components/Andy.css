@@ -5,8 +5,8 @@ html, body {
 img {
     width: 200px;
     height: 200px;
-    border-radius: 100px;
-    
+    border: 15px solid #e5dfce;
+    border-bottom-width: 34px;
 }
 
 .signUp {
