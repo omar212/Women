@@ -112,7 +112,7 @@ class Bio extends Component {
                     gutterBottom>
                     next</Button>
                      */}
-                <Button>
+                <Button size = "large" style = {{marginTop: "12px"}} variant ="outlined">
                     <Link to = "/bios/ask" style = {{width: "100%", height: "100%", textDecoration: "none"}}>
                         Ask Me
                     </Link>
