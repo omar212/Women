@@ -4,6 +4,8 @@ import './App.css';
 import SignUp from "./Components/SignUp";
 import Bio from './Components/Bio';
 import SignIn from "./Components/SignIn";
+import Ask from "./Components/Ask";
+import Question from "./Components/Questions";
 // import LoginSocial from "./Components/LoginSocial";
 
 class App extends Component {
@@ -14,7 +16,8 @@ class App extends Component {
           <Route path = "/" exact component = { SignIn } />
           <Route path = "/signup" exact component = { SignUp } />
           <Route path = "/bios" exact component = { Bio } />
-          {/* <Route path = "/signin/login" exact component = { LoginSocial } /> */}
+          <Route path = "/bios/ask" exact component = { Ask } />
+          <Route path = "/bios/ask/question" exact component = { Question } />
         </div>
       </BrowserRouter>
     );
