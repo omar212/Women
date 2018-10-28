@@ -47,9 +47,13 @@ class SignIn extends Component {
                             type = "submit"
                             variant = "outlined"
                             style = {{marginTop: "15px"}}
-                        ><Link to = "/signin/login">
-                            Sign In
-                        </Link>
+                        >
+                            <Link 
+                                to = "/signin/login" 
+                                style = {{textDecoration: "none", width: "100%", height: "100%"}}
+                            >
+                                Sign In
+                            </Link>
                         </Button>
 
                         <Link to = "/signup" style = {{marginTop: "15px", textDecoration: "none"}}>Don't Have An Account? Sign Up Here</Link>
