@@ -9,27 +9,32 @@ import "./Andy.css";
 class SignIn extends Component {
     render() {
         return (
-            <div>
-                <form>
-                    <Typography
-                        style = {{
-                            marginTop: "2%",
-                            color: "black"
-                        }}
-                        gutterBottom = "true"
-                        variant = "display4"
-                        align = "center"
-                    >
-                        Sign In
-                    </Typography>
-                    <Card
-                        style = {{marginTop: "0"}}
-                        className = "signUp"
-                        raised = "true"
-                        data-aos = "fade-down"
-                        data-aos-easing = "linear"
-                        data-aos-duration = "500"
-                    >
+            <div data-aos="" className = "background">
+                <Typography
+                    style = {{
+                        marginTop: "0",
+                        color: "white",
+                        textShadow: "0 0 10px black",
+                        paddingTop: "100px"
+                    }}
+                    gutterBottom = "true"
+                    variant = "display4"
+                    align = "center"
+                    data-aos = "fade-down"
+                    data-aos-easing = "linear"
+                    data-aos-duration = "500"
+                >
+                    Sign In
+                </Typography>
+                <Card
+                    raised = "true"
+                    data-aos = "fade-down"
+                    data-aos-easing = "linear"
+                    data-aos-duration = "500"
+                    style = {{marginTop: "0", opacity: ".95"}}
+                    className = "signUp"
+                >
+                    <form>
                         <TextField 
                             margin = "normal"
                             label = "Email"
@@ -47,6 +52,7 @@ class SignIn extends Component {
                             type = "submit"
                             variant = "outlined"
                             style = {{marginTop: "15px"}}
+                            gutterBottom
                         >
                             <Link 
                                 to = "/signin/login" 
@@ -55,10 +61,12 @@ class SignIn extends Component {
                                 Sign In
                             </Link>
                         </Button>
-
-                        <Link to = "/signup" style = {{marginTop: "15px", textDecoration: "none"}}>Don't Have An Account? Sign Up Here</Link>
-                    </Card>
-                </form>
+                        <br/>
+                        <Link to = "/signup" style = {{textDecoration: "none"}}>
+                            Don't Have An Account? Sign Up Here
+                        </Link>
+                    </form>
+                </Card>
             </div>
         )
     }

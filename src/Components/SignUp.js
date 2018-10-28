@@ -7,23 +7,35 @@ import { Link } from "react-router-dom";
 import "./Andy.css";
 
 class SignUp extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            name: this.props.name,
+            description: this.props.info
+        }
+    }
     render() {
         return(
-            <div>
+            <div className = "background">
                 <form>
                     <Typography
                         style = {{
-                            marginTop: "2%",
-                            color: "black"
+                            marginTop: "0",
+                            color: "white",
+                            textShadow: "0 0 10px black",
+                            paddingTop: "50px"
                         }}
                         gutterBottom = "true"
                         variant = "display4"
                         align = "center"
+                        data-aos = "fade-down"
+                        data-aos-easing = "linear"
+                        data-aos-duration = "500"
                     >
                         Join Us
                     </Typography>
                     <Card
-                        style = {{marginTop: "0"}}
+                        style = {{marginTop: "0", height: "60vh"}}
                         className = "signUp"
                         raised = "true"
                         data-aos = "fade-down"

@@ -29,3 +29,14 @@ img {
     align-items: center;
     margin: 20px auto;
 }
+
+.background {
+    height: 100vh;
+    background-image: url("./john-schnobrich-520023-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
