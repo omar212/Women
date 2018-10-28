@@ -1,17 +1,16 @@
-import "./App.css"
-import firebase from "firebase"
-import React, {Component} from "react
+import firebase from "firebase";
+import React, {Component} from "react";
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
-import Header from './Components/Header';
-import Signin from './Components/LoginPage/SignIn';
+import SignIn from './SignIn';
 
 firebase.initializeApp({
-  apiKey : "AIzaSyDVL3Lvrvc0E4i6CiuY3Ay9wkjvZona4y0",
-  authDomain : "login-form-try-2.firebaseapp.com",
+  apiKey : "AIzaSyAnu12nINCU2ZRO_2h919Qiu2DLNqfigMY",
+  authDomain : "hackattack-e1ab3.firebaseapp.com"
 })
 
-class App extends Component {
-  state = {isSignedIn : false} uiConfig = {
+class LoginSocial extends Component {
+  state = {isSignedIn : false};
+  uiConfig = {
     signInFlow : "popup",
     signInOptions:
         [
@@ -38,9 +37,10 @@ class App extends Component {
           <span>
             {/* <Header /> */}
             <div>Signed In!</div>
+            // {InfoPage}
             <button onClick={() => firebase.auth().signOut()}>Sign out!</button>
             <h1>Welcome {firebase.auth().currentUser.displayName}</h1>
-              <Signin />
+              <SignIn />
             {/* <img
               alt="profile picture"
               src={firebase.auth().currentUser.photoURL}
@@ -60,4 +60,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default LoginSocial;

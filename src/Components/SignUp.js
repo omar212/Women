@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import Textfield from "@material-ui/core/TextField";
+import TextField from "@material-ui/core/TextField";
 import Card from "@material-ui/core/Card";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
+import { Link } from "react-router-dom";
 import "./Andy.css";
-
 
 class SignUp extends Component {
     render() {
@@ -30,13 +30,13 @@ class SignUp extends Component {
                         data-aos-easing = "linear"
                         data-aos-duration = "500"
                     >
-                        <Textfield 
+                        <TextField 
                             margin = "normal"
                             label = "Full Name"
                             variant = "outlined"
                             type = "text"
                         />
-                        <Textfield 
+                        <TextField 
                             margin = "normal"
                             label = "Age"
                             variant = "outlined"
@@ -48,19 +48,19 @@ class SignUp extends Component {
                         >
                             Please Enter 3 Interests
                         </Typography>
-                        <Textfield 
+                        <TextField 
                             margin = "normal"
                             label = "Interest 1"
                             variant = "outlined"
                             type = "text"
                         />
-                        <Textfield 
+                        <TextField 
                             margin = "normal"
                             label = "Interest 2"
                             variant = "outlined"
                             type = "text"
                         />
-                        <Textfield 
+                        <TextField 
                             margin = "normal"
                             label = "Interest 3"
                             variant = "outlined"
@@ -74,6 +74,8 @@ class SignUp extends Component {
                         >
                             Sign Up
                         </Button>
+
+                        <Link to = "/" style = {{marginTop: "15px", textDecoration: "none"}}>Have An Account? Log In Here</Link>
                     </Card>
                 </form>
             </div>
