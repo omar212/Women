@@ -5,9 +5,6 @@ import MenuItem from "@material-ui/core/MenuItem";
 import Data from "./data.json";
 import Button from "@material-ui/core/Button";
 
-let Carousel = require("react-bootstrap/lib/Carousel");
-let CarouselItem = require("react-bootstrap/lib/CarouselItem");
-
 
 class Bio extends Component {
 
@@ -50,6 +47,7 @@ class Bio extends Component {
             }
         ];
 
+
    
         //const data = Data[this.state.index];
         function handleClick(e) {
@@ -57,6 +55,7 @@ class Bio extends Component {
             console.log('The link was clicked.');
           
         }
+
 
         return (
             <div onTouchStart={this.goToNext}>
@@ -94,6 +93,7 @@ class Bio extends Component {
                             />
                         )
                     }
+
                     }
                     )
                 }
@@ -110,12 +110,14 @@ class Bio extends Component {
                     }}
                     gutterBottom>
                     next</Button>*/}
+                })}
+ 
 
                          
                 
             </div>
         )
-        }
+    }
 }
 
 export default Bio;
