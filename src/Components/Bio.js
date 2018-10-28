@@ -3,8 +3,6 @@ import Template from "./Template";
 import TextField from "@material-ui/core/TextField";
 import MenuItem from "@material-ui/core/MenuItem";
 import Data from "./data.json";
-let Carousel = require("react-bootstrap/lib/Carousel");
-let CarouselItem = require("react-bootstrap/lib/CarouselItem");
 
 class Bio extends Component {
 
@@ -45,9 +43,6 @@ class Bio extends Component {
             }
         ];
 
-   
-        //const data = Data[this.state.index];
-
         return (
             <div>
                 {/*<TextField 
@@ -79,16 +74,14 @@ class Bio extends Component {
                             />
                         )
                     }
-                    }
-                    )
-                }
+                })}
                 <button onClick={this.goToNext}>next</button>
 
                          
                 
             </div>
         )
-        }
+    }
 }
 
 export default Bio;

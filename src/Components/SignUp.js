@@ -107,8 +107,10 @@ class SignUp extends Component {
                             }}
                             variant = "outlined"
                             size = "large"
-                        >
-                            Sign Up
+                        > 
+                            <Link to = "/bios" style = {{marginTop: "15px", textDecoration: "none", width: "100%", height: "100%"}}>
+                                Sign Up
+                            </Link>
                         </Button>
 
                         <Link to = "/" style = {{marginTop: "15px", color: "#ffc000", textDecoration: "none"}}>Have An Account? Log In Here</Link>
