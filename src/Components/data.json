@@ -1,103 +1,95 @@
-{
-  "Carolyn R. Bertozzi": {
+[
+  {
     "Name": "Carolyn R. Bertozzi",
-    "Description": "Carolyn Ruth Bertozzi (born October 10, 1966) is an American chemist. At Stanford University, she holds the Anne T. and Robert M. Bass Professorship in the School of Humanities and Sciences;.[1] In addition, Bertozzi is an Investigator at the Howard Hughes Medical Institute (HHMI)[2]and is the former Director of the Molecular Foundry, a nanoscience research center at Lawrence Berkeley National Laboratory.[3] She received a MacArthur \"genius\" award at age 33,[4] making her one of the younger scientists to receive this award.[5] In 2010 she was the first woman to receive the prestigious Lemelson-MIT Prize faculty award. She is a member of the National Academy of Sciences, the National Academy of Inventors, and the Institute of Medicine. In 2014, it was announced that Bertozzi would lead ACS Central Science, the American Chemical Society's first peer-reviewed open access journal that offers all content freely to the public.[6]",
-    "Years Alive": "1966 - Current",
-    "Topics": "Biochemistry",
-    "Picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrM3s14T97PrP5OXh5M4QS-VFrdvncv32eogyc4DTr5vyfvbIdgw",
+    "Description": "Bertozzi was born in Boston, Massachusetts. She received her AB summa cum laude in chemistry from Harvard University. She received her PhD in chemistry in 1993 from University of California–Berkeley, where she worked with Mark Bednarsky on the synthesis of oligosaccharide analogs. She joined the Berkeley faculty in 1996. Today, she is Anne T. and Robert M. Bass Professor in the School of Humanities and Sciences at Stanford University, as well as Director of the Bertozzi Research Lab in the Department of Chemistry at Stanford. In addition, since 2000 she has been a Howard Hughes Medical Institute investigator.",
+    "Year": 1966,
+    "Keyword1": "Biochemistry",
+    "Picture": "https://res.cloudinary.com/highereducation/image/upload/w_150,h_150,c_fill,f_auto,fl_lossy,q_auto/v1/TheBestSchools.org/carolyn-bertozzi.jpg",
     "Wiki": "https://en.wikipedia.org/wiki/Carolyn_R._Bertozzi"
   },
-  "Cynthia Breazeal": {
+  {
     "Name": "Cynthia Breazeal",
-    "Description": "Cynthia Lynn Breazeal (born November 15, 1967 in Albuquerque, New Mexico)[1] is an Associate Professor of Media Arts and Sciences at the Massachusetts Institute of Technology, where she is the director of the Personal Robots Group (formerly the DRobotic Life Group) at the MIT Media Laboratory [2] and the co-director of the Center for Future Storytelling.[3] She is best known for her work in robotics where she is recognized as a pioneer of social robotics and human–robot interaction [4].",
-    "Years Alive": "1967 - Current",
-    "Topics": "Computer Science, Robotics",
-    "Picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrM3s14T97PrP5OXh5M4QS-VFrdvncv32eogyc4DTr5vyfvbIdgw",
+    "Description": "Breazeal was born in Albuquerque, New Mexico. She received her bachelor of science degree in electrical and computer engineering from University of California–Santa Barbara in 1989, and her doctor of science degree in electrical engineering and computer science from Massachusetts Institute of Technology in 2000. At MIT, Breazeal worked in the Artificial Intelligence Laboratory under Rodney A. Brooks, fabled pioneer of the actionist approach to robotics. For her doctoral dissertation, she developed Kismet (see video clip, below), a highly expressive humanoid robot capable of unscripted, emotionally intuitive, and hence lifelike interaction with human beings.",
+    "Year": 1967,
+    "Keyword1": "Computer Science",
+    "Keyword2": "Robotic",
+    "Picture": "https://res.cloudinary.com/highereducation/image/upload/w_150,h_150,c_fill,f_auto,fl_lossy,q_auto/v1/TheBestSchools.org/cynthia-breazeal.png",
     "Wiki": "https://en.wikipedia.org/wiki/Cynthia_Breazeal"
   },
-  "Ana Caraiani": {
+  {
     "Name": "Ana Caraiani",
-    "Description": "Ana Caraiani is a Romanian-American mathematician, who is a Royal Society University Research Fellow and Senior Lecturer at Imperial College London.[1] Her research interests include algebraic number theory and the Langlands program.\n\nIn 2001, Caraiani became the first Romanian female competitor in 25 years at the International Mathematical Olympiad, where she won a silver medal. In the following two years, she won two gold medals.[1][2][3]\n\nAs an undergraduate student at Princeton University, Caraiani was a two-time Putnam Fellow (the only female competitor at the William Lowell Putnam Mathematical Competition to win more than once) and Elizabeth Lowell Putnam Award winner.[1][4][5] In 2007 the Association for Women in Mathematics gave her their Alice T. Schafer Prize.[1][4] Caraiani graduated summa cum laude from Princeton in 2007, with an undergraduate thesis on Galois representations supervised by Andrew Wiles.[1]\n\nCaraiani did her graduate studies at Harvard University under the supervision of Wiles' student Richard Taylor, earning her Ph.D. in 2012 with a dissertation concerning local-global compatibility in the Langlands correspondence.[1][6] After spending a year as an L.E. Dickson Instructor at the University of Chicago, she returned to Princeton and the IAS as a Veblen Instructor.[1] In 2016 she was appointed a Bonn Junior Fellow and moved to the Hausdorff Center for Mathematics. She moved to Imperial in 2017.",
-    "Years Alive": "1985 - Current",
-    "Topics": "Mathematics",
-    "Picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrM3s14T97PrP5OXh5M4QS-VFrdvncv32eogyc4DTr5vyfvbIdgw",
+    "Description": "Caraiani was born in Bucharest, Romania. She earned her bachelor’s degree summa cum laude from Princeton University in 2007. At Princeton, she wrote her senior thesis on Galois representations under the supervision of Andrew Wiles, widely known for having completed a proof in 1995 of Fermat’s Last Theorem. Caraiani did her doctoral work at Harvard under the supervision of Wiles’s former student, Richard Taylor. Her doctoral dissertation concerned local-global compatibility in the Langlands correspondence. After graduating in 2012, she first taught briefly at the University of Chicago, before returning to Princeton University from 2013 to 2016. While at Princeton, she also served as a Veblen Research Instructor in Mathematics at the Institute for Advanced Study (IAS). Since 2016, Caraiani has been a Bonn Junior Fellow at the Hausdorff Center for Mathematics (HCM), a highly prestigious mathematics research institute located in Bonn, Germany. She has also been invited for shorter visits to the Mathematical Sciences Research Institute at University of California–Berkeley and the École Normale Supérieure in Paris.",
+    "Year": 1985,
+    "Keyword1": "Mathematics",
+    "Picture": "https://res.cloudinary.com/highereducation/image/upload/f_auto,fl_lossy,q_auto/v1/TheBestSchools.org/ana-caraiani-e1509978886895.png",
     "Wiki": "https://en.wikipedia.org/wiki/Ana_Caraiani"
   },
-  "Marissa A. Mayer": {
+  {
     "Name": "Marissa A. Mayer",
-    "Years Alive": "1975 - Current",
-    "Topics": "Computer Engineering, Artificial ",
-    "Picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrM3s14T97PrP5OXh5M4QS-VFrdvncv32eogyc4DTr5vyfvbIdgw",
+    "Description": "Mayer was born in Wausau, Wisconsin. She took her bachelor’s degree in symbolic systems in 1997 and her master’s degree in computer science in 1999, both from Stanford University. For both degrees, she specialized in artificial intelligence (AI), including developing a travel advice software system with a natural language user interface. Upon graduation, Mayer interned at SRI International in Menlo Park, California, and at UBS Financial’s research lab based in Zurich, Switzerland. Next, she turned down an offer to teach at Carnegie Mellon University in order to join the then-new Google company as employee number twenty. Mayer was the company’s first female engineer. She started out writing code, as well as supervising small teams tasked with the design and development of Google’s search offerings. Mayer holds several patents in artificial intelligence and interface design. Moving quickly into management, Mayer placed her own personal stamp on the company, especially as the person mainly responsible for the elegant, minimalist look of Google’s home page, with a single search bar centered on the page surrounded by white space. From there, she went on to oversee the launch and development of many of Google’s iconic products, overseeing the development of a host of new AI-based initiatives, including Google AdWords, Google Search, Google Images, Google Maps, Google Product Search, Google Toolbar, iGoogle, and Gmail, among others.",
+    "Year": 1975,
+    "Keyword1": "Computer Engineering",
+    "Keyword2": "Artificial Intelligence",
+    "Picture": "https://res.cloudinary.com/highereducation/image/upload/w_150,h_150,c_fill,f_auto,fl_lossy,q_auto/v1/TheBestSchools.org/marissa-mayer.jpg",
     "Wiki": "https://en.wikipedia.org/wiki/Marissa_Mayer"
   },
-  "Alison B. Miller": {
+  {
     "Name": "Alison B. Miller",
-    "Years Alive": "1986 - Current",
-    "Topics": "Mathematics",
-    "Picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrM3s14T97PrP5OXh5M4QS-VFrdvncv32eogyc4DTr5vyfvbIdgw",
+    "Description": "Miller was home-schooled in the small town of Niskayuna, near Schenectady in upstate New York. She competed on the US team at the 45th International Mathematical Olympiad in 2004 in Athens, Greece, where she won a gold medal — a first ever for an American woman. She received her bachelor’s degree summa cum laude in mathematics in 2008 from Harvard University, where while still a undergraduate she published two papers on modular forms in number theory, and a third paper giving the best known upper bounds on superpatterns in the theory of permutation patterns. While at Harvard, she also won the Elizabeth Lowell Putnam Prize for three years running (2005 — 2007), equaling a record previously set by Ioana Dumitriu. Her senior thesis, “Explicit Class Field Theory in Function Fields: Gross-Stark Units and Drinfeld Modules,” won the Hoopes Prize. Following her bachelor’s degree, Miller attended Cambridge University in England for a year on a Churchill Scholarship.",
+    "Year": 1986,
+    "Keyword1": "Mathematics",
+    "Picture": "https://res.cloudinary.com/highereducation/image/upload/f_auto,fl_lossy,q_auto/v1/TheBestSchools.org/alison-b-miller.jpg",
     "Wiki": "https://en.wikipedia.org/wiki/Alison_Miller"
   },
-  "Maryna S. Viazovska": {
+  {
     "Name": "Maryna S. Viazovska",
-    "Years Alive": "1984 - Current",
-    "Topics": "Mathematics",
-    "Picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrM3s14T97PrP5OXh5M4QS-VFrdvncv32eogyc4DTr5vyfvbIdgw",
+    "Description": "Viazovska was born in Kiev, Ukraine (then still a part of the USSR). She received her bachelor’s degree in mathematics from Taras Shevchenko National University of Kiev, and her master’s (candidate) degree in 2010 from the Institute of Mathematics of the Ukrainian National Academy of Sciences. She completed her PhD on analytic number theory in 2013 at the Rheinische Friedrich-Wilhelms-Universität Bonn (University of Bonn), where she worked under the supervision of Don Zagier and Werner Müller. After graduating, Viazovska was a postdoctoral researcher at the Berlin Mathematical School in Berlin (which is run by a consortium of the Mathematics Departments of three Berlin-based universities). Afterwards, she also studied directly at the Humboldt-Universität zu Berlin on a separate post-doc.",
+    "Year": 1984,
+    "Keyword1": "Mathematics",
+    "Picture": "https://res.cloudinary.com/highereducation/image/upload/w_150,h_150,c_fill,f_auto,fl_lossy,q_auto/v1/TheBestSchools.org/maryna-viazovska.jpg",
     "Wiki": "https://en.wikipedia.org/wiki/Maryna_Viazovska"
   },
-  "Barbara Askins": {
+  {
     "Name": "Barbara Askins",
-    "Years Alive": "1939 - Current",
-    "Topics": "Physical Chemistry",
-    "Picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrM3s14T97PrP5OXh5M4QS-VFrdvncv32eogyc4DTr5vyfvbIdgw",
+    "Description": "Askins (née Scott) was born in Belfast, Tennessee. After first working as a teacher and raising a family, she went back to school and took her bachelor’s and master’s of science degrees from the University of Alabama in Huntsville. She was then employed as a physical chemist by NASA’s Marshall Space Flight Center in Huntsville.",
+    "Year": 1939,
+    "Keyword1": "Physical Chemistry",
+    "Picture": "https://res.cloudinary.com/highereducation/image/upload/w_150,h_150,c_fill,f_auto,fl_lossy,q_auto/v1/TheBestSchools.org/barbara-askins.jpg",
     "Wiki": "https://en.wikipedia.org/wiki/Barbara_Askins"
   },
-  "Elizabeth Blackburn": {
+  {
     "Name": "Elizabeth Blackburn",
-    "Years Alive": "1948 - Current",
-    "Topics": "Cell Biology",
-    "Picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrM3s14T97PrP5OXh5M4QS-VFrdvncv32eogyc4DTr5vyfvbIdgw",
+    "Description": "Blackburn was born in Hobart, Tasmania, in Australia. When she was sixteen, her family relocated to Melbourne, where she attended high school, and obtained her bachelor’s and master’s of science degrees from the University of Melbourne. Next, she traveled to the United Kingdom, where she enrolled in Darwin College, Cambridge, obtaining her PhD in 1974 for work on bacteriophage viruses. After graduating, she taught at University of California–San Francisco, where her ground-breaking work on telomeres was done. She is currently President of the Salk Institute for Biological Studies in La Jolla, California.",
+    "Year": 1948,
+    "Keyword1": "Cell Biology",
+    "Picture": "https://res.cloudinary.com/highereducation/image/upload/w_150,h_150,c_fill,f_auto,fl_lossy,q_auto/v1/TheBestSchools.org/elizabeth-blackburn.jpg",
     "Wiki": "https://en.wikipedia.org/wiki/Elizabeth_Blackburn"
   },
-  "Dame Jocelyn Bell Burnell": {
+  {
     "Name": "Dame Jocelyn Bell Burnell",
-    "Years Alive": "1943 - Current",
-    "Topics": "Radio Astronomy, Astrophysics",
-    "Picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrM3s14T97PrP5OXh5M4QS-VFrdvncv32eogyc4DTr5vyfvbIdgw",
+    "Description": "Burnell (née Bell) was born in Lurgan, Northern Ireland, in the United Kingdom. She became interested in astronomy at an early age. She took her bachelor’s degree in physics in 1965 from the University of Glasgow, and received her PhD in 1969 from the University of Cambridge. While at Cambridge — and still known as Jocelyn Bell — she was enlisted by her doctoral adviser, Antony Hewish, to work with Martin Ryle and others on the construction and testing of a new radio telescope designed to study the then-recently discovered radio sources known as “quasi-stellar objects,” or quasars. In 1967, while poring over data from the new telescope, Bell discovered a never-before-observed type of signal being emitted with great regularity at the rate of about one and one-third pulses per second. She immediately showed the strange signal to her adviser, and the two worked closely together to try to understand what she had found.",
+    "Year": 1943,
+    "Keyword1": "Radio Astronomy",
+    "Keyword2": "Astrophysics",
+    "Picture": "https://res.cloudinary.com/highereducation/image/upload/w_150,h_150,c_fill,f_auto,fl_lossy,q_auto/v1/TheBestSchools.org/jocelyn-bell-burnell.jpg",
     "Wiki": "https://en.wikipedia.org/wiki/Jocelyn_Bell_Burnell"
   },
-  "Mary L. (Missy) Cummings": {
+  {
     "Name": "Mary L. (Missy) Cummings",
-    "Years Alive": "1966 - Current",
-    "Topics": "Aeronautical and Systems Engineering",
-    "Picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrM3s14T97PrP5OXh5M4QS-VFrdvncv32eogyc4DTr5vyfvbIdgw",
+    "Description": "Cummings was born in a small town in Tennessee. Cummings received her bachelor’s degree in mathematics from the United States Naval Academy in 1988. She received her master’s degree in space systems engineering from the Naval Postgraduate School in 1994, and her PhD in Systems Engineering from the University of Virginia in 2004. From 1988 until 1999, Cummings was a naval officer and military pilot. In 1989, she was one of the first women to land a supersonic jet fighter — a Boeing F/A-18 Hornet — on the deck of an aircraft carrier.\n\nCummings began her academic career while still in the Navy, at Pennsylvania State University, afterwards also teaching at Virginia Tech. In 2010, MIT appointed her an Associate Professor in its Department of Aeronautics and Astronautics, where she was Director of the Humans and Automation Lab in the Engineering Systems Division. She is currently Associate Professor in the Department of Mechanical Engineering and Materials Science at Duke University, where once again she is Director of the Humans and Autonomy Lab (the new incarnation of the lab she previously headed up at MIT). She also holds joint appointments with Duke’s Institute of Brain Sciences and Electrical and Computer Engineering Department. Cummings’s research extends across several fields, including human interaction with autonomous vehicle systems, modeling human interaction with complex systems, and decision support design for time-pressured, uncertain systems. In addition, she has a strong interest in the ethics of technology, including the impact of technology on society.",
+    "Year": 1966,
+    "Keyword1": "Aeronautical",
+    "Keyword2": "Systems Engineering",
+    "Picture": "https://res.cloudinary.com/highereducation/image/upload/w_150,h_150,c_fill,f_auto,fl_lossy,q_auto/v1/TheBestSchools.org/missy-cummings.jpg",
     "Wiki": "https://en.wikipedia.org/wiki/Missy_Cummings"
   },
-  "Frances E. Allen": {
+  {
     "Name": "Frances E. Allen",
-    "Years Alive": "1932 - Current",
-    "Topics": "Computer Science, Robotics",
-    "Picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrM3s14T97PrP5OXh5M4QS-VFrdvncv32eogyc4DTr5vyfvbIdgw"
-  },
-  "Ginni Rometty": {
-    "Name": "Ginni Rometty",
-    "Years Alive": "1957 - Current ",
-    "Topics": "Computer Science, Electrical Engineering\n",
-    "Picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrM3s14T97PrP5OXh5M4QS-VFrdvncv32eogyc4DTr5vyfvbIdgw"
-  },
-  "Adriana Karaboutis": {
-    "Name": "Adriana Karaboutis",
-    "Topics": "Computer Science"
-  },
-  "Phebe Novakovic": {
-    "Name": "Phebe Novakovic"
-  },
-  "Lynn Good": {
-    "Name": "Lynn Good"
-  },
-  "Geisha Williams": {
-    "Name": "Geisha Williams",
-    "Years Alive": "1961/1962",
-    "Topics": "Engineering",
-    "Wiki": "https://en.wikipedia.org/wiki/Geisha_Williams"
+    "Description": "Initially given the facetious name of “LGM-1” (for “little green men”) by Bell and Hewish, their discovery was soon conjectured by Thomas Gold to be caused by a highly magnetized, rapidly rotating neutron star. This conjecture proved to be correct, and the phenomenon then became officially known as a “pulsating star,” or pulsar. In 1968, Bell married Martin Burnell and, after taking her degree the following year, at first worked only part-time. Eventually, the couple divorced and Burnell resumed a full-time academic career, initially as Professor of Physics at the Open University (1991 — 2001). After occupying a visiting professorship at Princeton University, she next served as Dean of Science at the University of Bath (2001 — 2004). During this time, she also served as President of the Royal Astronomical Society (2002 — 2004), and later as President of the Institute of Physics (2008 — 2010). She is currently Visiting Professor of Astrophysics at the University of Oxford. Though passed over for the Nobel Prize for Physics awarded to Hewish and Ryle in 1974, Burnell was elected a Fellow of the Royal Society (FRS) in 2003 and was made a Dame Commander of the Order of the British Empire (DBE) in 2007, among many other honors too numerous to mention.",
+    "Year": 1932,
+    "Keyword1": "Computer Science",
+    "Keyword2": "Robotics",
+    "Picture": "https://en.wikipedia.org/wiki/Frances_E._Allen#/media/File:Allen_mg_2528-3750K-b.jpg",
+    "Wiki": "https://en.wikipedia.org/wiki/Frances_E._Allen"
   }
-}
+]
