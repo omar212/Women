@@ -37,6 +37,7 @@ class LoginSocial extends Component {
           <span>
             {/* <Header /> */}
             <div>Signed In!</div>
+            // {InfoPage}
             <button onClick={() => firebase.auth().signOut()}>Sign out!</button>
             <h1>Welcome {firebase.auth().currentUser.displayName}</h1>
               <SignIn />
@@ -54,7 +55,7 @@ class LoginSocial extends Component {
           />
         )
   }
-        </div>
+  < /div>
     )
   }
 }
