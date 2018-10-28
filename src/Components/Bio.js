@@ -110,7 +110,7 @@ class Bio extends Component {
                     }}
                     gutterBottom>
                     next</Button>*/}
-                })}
+               
  
 
                          
