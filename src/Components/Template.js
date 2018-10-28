@@ -62,7 +62,7 @@ class Template extends Component {
                             {this.state.info}
                         </Typography> 
                 
-                        < a href = {this.state.moreInfo} >More Info</a>
+                        <a>More Info</a>
                     </Card>
                 </div>
         )

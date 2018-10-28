@@ -113,7 +113,7 @@ class Bio extends Component {
                     next</Button>
                      */}
                 <Button>
-                    <Link to = "/bios/ask">
+                    <Link to = "/bios/ask" style = {{width: "100%", height: "100%", textDecoration: "none"}}>
                         Ask Me
                     </Link>
                 </Button>
