@@ -4,6 +4,7 @@ import Typography from "@material-ui/core/Typography";
 import "./Andy.css";
 import "./template.css";
 
+
 class Template extends Component {
     constructor(props) {
         super(props);
@@ -20,38 +21,36 @@ class Template extends Component {
             <div
 
                 className="info_container">
-                <Card
-                    className = "info"
-                    raised = "true"
-                    data-aos = "fade-down"
-                    data-aos-easing = "linear"
-                    data-aos-duration = "500"
-                >   
+                    <Card
+                        className = "info"
+                        raised = "true"
+                        
+                    >   
                     
 
-                    <Typography
-                        variant = "subtitle1"
-                    >
-                        {this.state.name}
-                    </Typography>
+                        <Typography
+                            variant = "subtitle1"
+                        >
+                            {this.state.name}
+                        </Typography>
 
-                    < img src={this.state.image} alt=""></img>
+                        < img src={this.state.image} alt=""></img>
 
-                    <Typography
-                        variant = "subtitle1"
-                    >
-                        {this.state.year} 
-                    </Typography>
+                        <Typography
+                            variant = "subtitle1"
+                        >
+                            {this.state.year} 
+                        </Typography>
 
-                    <Typography
-                        variant = "body2"
-                    >
-                        {this.state.info}
-                    </Typography> 
+                        <Typography
+                            variant = "body2"
+                        >
+                            {this.state.info}
+                        </Typography> 
                 
-                    < a href = {this.state.moreInfo} >More Info</a>
-                </Card>
-            </div>
+                        < a href = {this.state.moreInfo} >More Info</a>
+                    </Card>
+                </div>
         )
     }
 }

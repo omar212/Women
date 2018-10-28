@@ -3,26 +3,26 @@ import Template from "./Template";
 import TextField from "@material-ui/core/TextField";
 import MenuItem from "@material-ui/core/MenuItem";
 import Data from "./data.json";
-
+let Carousel = require("react-bootstrap/lib/Carousel");
+let CarouselItem = require("react-bootstrap/lib/CarouselItem");
 
 class Bio extends Component {
-    constructor(props) {
-        super(props);
+
+    constructor() {
+        super();
         this.state = {
-            filter: "",
-            key: [],
-            results: 0,
-        }
-        this.handleChange = this.handleChange.bind(this);
+            index: 0
+        };
     }
 
-    handleChange = filter => event => {
-        this.setState({
-            filter: event.target.value,
-        });
+    goToNext = () => {
+        this.setState({ index: (this.state.index + 1) % Data.length });
     };
 
     render() {
+     
+
+
         const career = [{
                 value: '',
                 label: '',
@@ -45,9 +45,12 @@ class Bio extends Component {
             }
         ];
 
+   
+        //const data = Data[this.state.index];
+
         return (
             <div>
-                <TextField 
+                {/*<TextField 
                     select
                     label = "Career"
                     value = {this.state.filter}
@@ -60,28 +63,32 @@ class Bio extends Component {
                             {option.label}
                         </MenuItem>
                     ))}
-                </TextField>
-                <div>
-                    {Data.map((data, index) => {
-                        // if (data.Keyword === this.state.filter) {
-                           return (
-                               <div>                       
-                                    <Template 
-                                        name = {data.Name} 
-                                        born = {data.Year}
-                                        career = {data.Keyword}
-                                        info = {data.Description} 
-                                        image = {data.Picture} 
-                                        moreInfo = {data.Wiki}
-                                    />
-                                </div>
-                           )
-                        // }
-                    })}
-                </div>
+                </TextField>*/}
+                
+                { Data.map((data, index) => {
+                    if (this.state.index === index) {
+                        return (
+
+                            <Template
+                                name={data.Name}
+                                born={data.Year}
+                                career={data.Keyword}
+                                info={data.Description}
+                                image={data.Picture}
+                                moreInfo={data.Wiki}
+                            />
+                        )
+                    }
+                    }
+                    )
+                }
+                <button onClick={this.goToNext}>next</button>
+
+                         
+                
             </div>
         )
-    }
+        }
 }
 
 export default Bio;
