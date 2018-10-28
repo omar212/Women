@@ -12,18 +12,22 @@ class SignUp extends Component {
             <div>
                 <form>
                     <Typography
-                        style = {{
-                            marginTop: "2%",
-                            color: "black"
+                        style={{
+                            color: "black",
+                            paddingTop: "50px",
                         }}
                         gutterBottom = "true"
-                        variant = "display4"
+                        variant = "display2"
                         align = "center"
                     >
                         Join Us
                     </Typography>
                     <Card
-                        style = {{marginTop: "0"}}
+                        style={{
+                            marginTop: "25px",
+                            paddingTop: "20px",
+                            paddingBottom: "20px",
+                        }}
                         className = "signUp"
                         raised = "true"
                         data-aos = "fade-down"
@@ -31,12 +35,18 @@ class SignUp extends Component {
                         data-aos-duration = "500"
                     >
                         <TextField
+                            style={{
+                                width: "85%"
+                            }}
                             margin = "normal"
-                            label = "Full Name"
+                            label = "Email Address"
                             variant = "outlined"
-                            type = "text"
+                            type = "email"
                         />
                         <TextField
+                            style={{
+                                width: "85%"
+                            }}
                             margin = "normal"
                             label = "Age"
                             variant = "outlined"
@@ -49,33 +59,48 @@ class SignUp extends Component {
                             Please Enter 3 Interests
                         </Typography>
                         <TextField
+                            style={{
+                                width: "85%"
+                            }}
                             margin = "normal"
                             label = "Interest 1"
                             variant = "outlined"
                             type = "text"
                         />
                         <TextField
+                            style={{
+                                width: "85%"
+                            }}
                             margin = "normal"
                             label = "Interest 2"
                             variant = "outlined"
                             type = "text"
                         />
                         <TextField
+                            style={{
+                                width: "85%"
+                            }}
                             margin = "normal"
                             label = "Interest 3"
                             variant = "outlined"
                             type = "text"
                         />
                         <Button
-                            type = 'submit'
+                            type='submit'
+                            style={{
+                                marginTop: "15px",
+                                width: "85%",
+                                backgroundColor: "#ffc000",
+                                fontSize: "24px",
+                                border: "0px"
+                            }}
                             variant = "outlined"
                             size = "large"
-                            style = {{marginTop:'15px'}}
                         >
                             Sign Up
                         </Button>
 
-                        <Link to = "/" style = {{marginTop: "15px", textDecoration: "none"}}>Have An Account? Log In Here</Link>
+                        <Link to = "/" style = {{marginTop: "15px", color: "#ffc000", textDecoration: "none"}}>Have An Account? Log In Here</Link>
                     </Card>
                 </form>
             </div>

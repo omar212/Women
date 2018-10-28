@@ -2,11 +2,14 @@ import React, { Component } from "react";
 import Card from "@material-ui/core/Card";
 import Typography from "@material-ui/core/Typography";
 import "./Andy.css";
+import "./template.css";
+
 
 class Template extends Component {
     render() {
         return (
-            <div>
+            <div
+                className = "info_container">
                 <Card
                     className = "info"
                     raised = "true"
