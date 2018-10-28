@@ -2,6 +2,9 @@ import React, {Component} from "react";
 import Template from "./Template";
 import TextField from "@material-ui/core/TextField";
 import MenuItem from "@material-ui/core/MenuItem";
+import {
+    Link
+} from "react-router-dom";
 import Data from "./data.json";
 import Button from "@material-ui/core/Button";
 
@@ -19,10 +22,10 @@ class Bio extends Component {
         this.setState({ index: (this.state.index + 1) % Data.length });
     }
 
-   
+
 
     render() {
-     
+
 
 
         const career = [{
@@ -48,18 +51,18 @@ class Bio extends Component {
         ];
 
 
-   
+
         //const data = Data[this.state.index];
         function handleClick(e) {
             e.preventDefault();
             console.log('The link was clicked.');
-          
+
         }
 
 
         return (
             <div onTouchStart={this.goToNext}>
-                {/*<TextField 
+                {/*<TextField
                     select
                     label = "Career"
                     value = {this.state.filter}
@@ -73,17 +76,15 @@ class Bio extends Component {
                         </MenuItem>
                     ))}
                 </TextField>*/}
-                
+
                 { Data.map((data, index) => {
                     if (this.state.index === index) {
-                        
+
                             let str = data.Description.substring(0, 475)  + "..."
-                            
-                        
+
+
                         return (
-                            
                             <Template
-                               
                                 name={data.Name}
                                 born={data.Year}
                                 career={data.Keyword}
@@ -109,12 +110,16 @@ class Bio extends Component {
                         border: "0px"
                     }}
                     gutterBottom>
-                    next</Button>*/}
-               
- 
+                    next</Button>
+                     */}
+                <Button>
+                    <Link to = "/bios/ask">
+                        Ask Me
+                    </Link>
+                </Button>
 
-                         
-                
+
+
             </div>
         )
     }
