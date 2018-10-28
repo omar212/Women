@@ -17,8 +17,35 @@ class SignIn extends Component {
                 <form>
                     <Typography
                         style={{
+                            color: "white",
+                            paddingTop: "20px",
+                    textShadow: "2px 2px 2px rgba(0, 0,0,0.3)",
+                    fontWeight: "bold",
+                    fontSize: "30px",
+                
+                                        }}
+                                        gutterBottom="true"
+                                        variant="display2"
+                                        align="center"
+                                        data-aos="fade-down"
+                                        data-aos-easing="linear"
+                                        data-aos-duration="500"
+                                    >
+                                        iAm
+                    </Typography>
+                    <hr
+                        style={{
+                            border: "1px solid white",
+width: "85%",
+marginTop: "25px",
+                            marginBottom: "-15px"
+                        }}
+
+                    ></hr>
+                    <Typography
+                        style={{
                             color: "black",
-                            paddingTop: "50px",
+                            paddingTop: "75px",
                             
                         }}
                         gutterBottom = "true"

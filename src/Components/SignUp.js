@@ -20,6 +20,35 @@ class SignUp extends Component {
                 <form>
                     <Typography
                         style={{
+                            color: "white",
+                            paddingTop: "20px",
+                            textShadow: "2px 2px 2px rgba(0, 0,0,0.3)",
+                            fontWeight: "bold",
+                            fontSize: "30px",
+
+                        }}
+                        gutterBottom="true"
+                        variant="display2"
+                        align="center"
+                        data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="500"
+                    >
+                        iAm
+                    </Typography>
+                    <hr
+                        style={{
+                            border: "1px solid white",
+                            width: "85%",
+                            marginTop: "25px",
+                            marginBottom: "-15px"
+                        }}
+                        data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="500"
+                    ></hr>
+                    <Typography
+                        style={{
                             color: "black",
                             paddingTop: "50px",
                      
@@ -67,7 +96,7 @@ class SignUp extends Component {
                         <Typography
                             variant = "body"
                         >
-                            Please Enter 3 Interests
+                            Please Enter 2 Interests
                         </Typography>
                         <TextField
                             style={{
@@ -87,15 +116,7 @@ class SignUp extends Component {
                             variant = "outlined"
                             type = "text"
                         />
-                        <TextField
-                            style={{
-                                width: "85%"
-                            }}
-                            margin = "normal"
-                            label = "Interest 3"
-                            variant = "outlined"
-                            type = "text"
-                        />
+                     
                         <Button
                             type='submit'
                             style={{

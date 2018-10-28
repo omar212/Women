@@ -3,8 +3,11 @@ import Template from "./Template";
 import TextField from "@material-ui/core/TextField";
 import MenuItem from "@material-ui/core/MenuItem";
 import Data from "./data.json";
+import Button from "@material-ui/core/Button";
+
 let Carousel = require("react-bootstrap/lib/Carousel");
 let CarouselItem = require("react-bootstrap/lib/CarouselItem");
+
 
 class Bio extends Component {
 
@@ -17,7 +20,9 @@ class Bio extends Component {
 
     goToNext = () => {
         this.setState({ index: (this.state.index + 1) % Data.length });
-    };
+    }
+
+   
 
     render() {
      
@@ -47,9 +52,14 @@ class Bio extends Component {
 
    
         //const data = Data[this.state.index];
+        function handleClick(e) {
+            e.preventDefault();
+            console.log('The link was clicked.');
+          
+        }
 
         return (
-            <div>
+            <div onTouchStart={this.goToNext}>
                 {/*<TextField 
                     select
                     label = "Career"
@@ -67,13 +77,18 @@ class Bio extends Component {
                 
                 { Data.map((data, index) => {
                     if (this.state.index === index) {
+                        
+                            let str = data.Description.substring(0, 475)  + "..."
+                            
+                        
                         return (
-
+                            
                             <Template
+                               
                                 name={data.Name}
                                 born={data.Year}
                                 career={data.Keyword}
-                                info={data.Description}
+                                info={str}
                                 image={data.Picture}
                                 moreInfo={data.Wiki}
                             />
@@ -82,7 +97,19 @@ class Bio extends Component {
                     }
                     )
                 }
-                <button onClick={this.goToNext}>next</button>
+                {/* <Button
+                    onClick={this.goToNext}
+                    type="submit"
+                    variant="outlined"
+                    style={{
+                        marginTop: "12px",
+                        width: "25%",
+                        backgroundColor: "white",
+                        fontSize: "24px",
+                        border: "0px"
+                    }}
+                    gutterBottom>
+                    next</Button>*/}
 
                          
                 

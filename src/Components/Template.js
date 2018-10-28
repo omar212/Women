@@ -3,6 +3,8 @@ import Card from "@material-ui/core/Card";
 import Typography from "@material-ui/core/Typography";
 import "./Andy.css";
 import "./template.css";
+import Button from "@material-ui/core/Button";
+import { Link } from "react-router-dom";
 
 
 class Template extends Component {
@@ -19,8 +21,16 @@ class Template extends Component {
     render() {
         return (
             <div
-
+               
                 className="info_container">
+               
+                {/*<Link
+                    to="/signin"
+                    style={{ left:"35px", top: "25px", position: "absolute", color: "#ffc000", textDecoration: "none", width: "100%", height: "100%" }}
+                    >
+                        Sign In
+                            </Link>*/}
+                
                     <Card
                         className = "info"
                         raised = "true"
@@ -28,7 +38,11 @@ class Template extends Component {
                     >   
                     
 
-                        <Typography
+                    <Typography
+                        style={{
+                            color: "black",
+                            fontSize: "24px",
+                        }}
                             variant = "subtitle1"
                         >
                             {this.state.name}
