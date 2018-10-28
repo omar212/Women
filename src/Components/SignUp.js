@@ -1,42 +1,92 @@
 import React, { Component } from "react";
-import Textfield from "@material-ui/core/TextField";
+import TextField from "@material-ui/core/TextField";
 import Card from "@material-ui/core/Card";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
-import "./SignUp.css";
-
+import { Link } from "react-router-dom";
+import "./Andy.css";
 
 class SignUp extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            name: this.props.name,
+            description: this.props.info
+        }
+    }
     render() {
         return(
-            <div>
+            <div className = "background">
                 <form>
                     <Typography
-                        style = {{
-                            marginTop: "2%",
-                            color: "black"
+                        style={{
+                            color: "white",
+                            paddingTop: "20px",
+                            textShadow: "2px 2px 2px rgba(0, 0,0,0.3)",
+                            fontWeight: "bold",
+                            fontSize: "30px",
+
+                        }}
+                        gutterBottom="true"
+                        variant="display2"
+                        align="center"
+                        data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="500"
+                    >
+                        iAm
+                    </Typography>
+                    <hr
+                        style={{
+                            border: "1px solid white",
+                            width: "85%",
+                            marginTop: "25px",
+                            marginBottom: "-15px"
+                        }}
+                        data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="500"
+                    ></hr>
+                    <Typography
+                        style={{
+                            color: "black",
+                            paddingTop: "50px",
+                     
                         }}
                         gutterBottom = "true"
-                        variant = "display4"
+                        variant = "display2"
                         align = "center"
+                        data-aos = "fade-down"
+                        data-aos-easing = "linear"
+                        data-aos-duration = "500"
                     >
                         Join Us
                     </Typography>
                     <Card
-                        style = {{marginTop: "0"}}
+                        style={{
+                            marginTop: "25px",
+                            paddingTop: "20px",
+                            paddingBottom: "20px",
+                        }}
                         className = "signUp"
                         raised = "true"
                         data-aos = "fade-down"
                         data-aos-easing = "linear"
                         data-aos-duration = "500"
                     >
-                        <Textfield 
+                        <TextField
+                            style={{
+                                width: "85%"
+                            }}
                             margin = "normal"
-                            label = "Full Name"
+                            label = "Email Address"
                             variant = "outlined"
-                            type = "text"
+                            type = "email"
                         />
-                        <Textfield 
+                        <TextField
+                            style={{
+                                width: "85%"
+                            }}
                             margin = "normal"
                             label = "Age"
                             variant = "outlined"
@@ -46,34 +96,45 @@ class SignUp extends Component {
                         <Typography
                             variant = "body"
                         >
-                            Please Enter 3 Interests
+                            Please Enter 2 Interests
                         </Typography>
-                        <Textfield 
+                        <TextField
+                            style={{
+                                width: "85%"
+                            }}
                             margin = "normal"
                             label = "Interest 1"
                             variant = "outlined"
                             type = "text"
                         />
-                        <Textfield 
+                        <TextField
+                            style={{
+                                width: "85%"
+                            }}
                             margin = "normal"
                             label = "Interest 2"
                             variant = "outlined"
                             type = "text"
                         />
-                        <Textfield 
-                            margin = "normal"
-                            label = "Interest 3"
-                            variant = "outlined"
-                            type = "text"
-                        />
-                        <Button 
-                            type = 'submit'
+                     
+                        <Button
+                            type='submit'
+                            style={{
+                                marginTop: "15px",
+                                width: "85%",
+                                backgroundColor: "#ffc000",
+                                fontSize: "24px",
+                                border: "0px"
+                            }}
                             variant = "outlined"
                             size = "large"
-                            style = {{marginTop:'15px'}}
-                        >
-                            Sign Up
+                        > 
+                            <Link to = "/bios" style = {{marginTop: "15px", textDecoration: "none", width: "100%", height: "100%"}}>
+                                Sign Up
+                            </Link>
                         </Button>
+
+                        <Link to = "/" style = {{marginTop: "15px", color: "#ffc000", textDecoration: "none"}}>Have An Account? Log In Here</Link>
                     </Card>
                 </form>
             </div>
