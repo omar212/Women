@@ -7,18 +7,29 @@ import { Link } from "react-router-dom";
 import "./Andy.css";
 
 class SignUp extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            name: this.props.name,
+            description: this.props.info
+        }
+    }
     render() {
         return(
-            <div>
+            <div className = "background">
                 <form>
                     <Typography
                         style={{
                             color: "black",
                             paddingTop: "50px",
+                     
                         }}
                         gutterBottom = "true"
                         variant = "display2"
                         align = "center"
+                        data-aos = "fade-down"
+                        data-aos-easing = "linear"
+                        data-aos-duration = "500"
                     >
                         Join Us
                     </Typography>

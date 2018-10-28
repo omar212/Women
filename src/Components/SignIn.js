@@ -12,7 +12,7 @@ class SignIn extends Component {
     render() {
         const { classes } = this.props; 
         return (
-            <div>
+            <div data-aos="" className="background">
            
                 <form>
                     <Typography
@@ -23,7 +23,10 @@ class SignIn extends Component {
                         }}
                         gutterBottom = "true"
                         variant = "display2"
-                        align = "center"
+                        align="center"
+                        data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="500"
                     >
                         Sign In
                     </Typography>
@@ -72,9 +75,10 @@ class SignIn extends Component {
                                 fontSize: "24px",
                                 border: "0px"
                     }}
-                >
+                            gutterBottom
+                        >
                             <Link 
-                                to = "/signin/login" 
+                                to = "/bios" 
                                 style = {{color: "black", textDecoration: "none", width: "100%", height: "100%"}}
                             >
                                 Sign In
