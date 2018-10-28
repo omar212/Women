@@ -86,7 +86,7 @@ class Bio extends Component {
                         return (
                             <Template
                                 name={data.Name}
-                                born={data.Year}
+                                born={data.Born}
                                 career={data.Keyword}
                                 info={str}
                                 image={data.Picture}
