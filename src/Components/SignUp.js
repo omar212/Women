@@ -30,13 +30,13 @@ class SignUp extends Component {
                         data-aos-easing = "linear"
                         data-aos-duration = "500"
                     >
-                        <TextField 
+                        <TextField
                             margin = "normal"
                             label = "Full Name"
                             variant = "outlined"
                             type = "text"
                         />
-                        <TextField 
+                        <TextField
                             margin = "normal"
                             label = "Age"
                             variant = "outlined"
@@ -48,25 +48,25 @@ class SignUp extends Component {
                         >
                             Please Enter 3 Interests
                         </Typography>
-                        <TextField 
+                        <TextField
                             margin = "normal"
                             label = "Interest 1"
                             variant = "outlined"
                             type = "text"
                         />
-                        <TextField 
+                        <TextField
                             margin = "normal"
                             label = "Interest 2"
                             variant = "outlined"
                             type = "text"
                         />
-                        <TextField 
+                        <TextField
                             margin = "normal"
                             label = "Interest 3"
                             variant = "outlined"
                             type = "text"
                         />
-                        <Button 
+                        <Button
                             type = 'submit'
                             variant = "outlined"
                             size = "large"

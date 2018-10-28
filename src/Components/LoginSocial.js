@@ -4,12 +4,12 @@ import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
 import SignIn from './SignIn';
 
 firebase.initializeApp({
-  apiKey : "AIzaSyDVL3Lvrvc0E4i6CiuY3Ay9wkjvZona4y0",
-  authDomain : "login-form-try-2.firebaseapp.com",
+  apiKey: "AIzaSyAnu12nINCU2ZRO_2h919Qiu2DLNqfigMY",
+  authDomain: "hackattack-e1ab3.firebaseapp.com",
 })
 
-class App extends Component {
-  state = {isSignedIn : false}; 
+class LoginSocial extends Component {
+  state = {isSignedIn : false};
   uiConfig = {
     signInFlow : "popup",
     signInOptions:
@@ -59,4 +59,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default LoginSocial;
